@@ -1,0 +1,29 @@
+2024-08-06 09:42:57 LogWrapper init() ./logs/TradeWorker.log
+2024-08-06 09:50:00 TradeWorker : TradeDecision(): EUR_JPY dir:1 gain:0.2147 sl:158.6129 tp:158.9707
+2024-08-06 09:50:00 get_trade_units() price ApiPrice() EUR_JPY 158.766 158.735 0.006299 0.006299
+2024-08-06 09:50:00 0.01 14.312962962961251 0.349333678354292 5545.7
+2024-08-06 09:50:00 placed trade_id:89339 for TradeDecision(): EUR_JPY dir:1 gain:0.2147 sl:158.6129 tp:158.9707
+2024-08-06 09:51:00 TradeWorker : TradeDecision(): GBP_JPY dir:1 gain:0.2224 sl:184.9497 tp:185.3204
+2024-08-06 09:51:00 get_trade_units() price ApiPrice() GBP_JPY 185.121 185.082 0.006299 0.006299
+2024-08-06 09:51:00 0.01 14.829629629628016 0.3371628371628739 5353.0
+2024-08-06 09:51:00 placed trade_id:89343 for TradeDecision(): GBP_JPY dir:1 gain:0.2224 sl:184.9497 tp:185.3204
+2024-08-06 09:54:00 TradeWorker : TradeDecision(): GBP_JPY dir:1 gain:0.2419 sl:184.8458 tp:185.2489
+2024-08-06 09:54:00 Failed to place trade TradeDecision(): GBP_JPY dir:1 gain:0.2419 sl:184.8458 tp:185.2489, already open: {'id': '89343', 'instrument': 'GBP_JPY', 'price': 185.121, 'currentUnits': 5353.0, 'unrealizedPL': -4.5771, 'marginUsed': 207.8302}
+2024-08-06 09:54:00 TradeWorker : TradeDecision(): EUR_JPY dir:1 gain:0.1967 sl:158.5498 tp:158.8777
+2024-08-06 09:54:00 Failed to place trade TradeDecision(): EUR_JPY dir:1 gain:0.1967 sl:158.5498 tp:158.8777, already open: {'id': '89339', 'instrument': 'EUR_JPY', 'price': 158.766, 'currentUnits': 5546.0, 'unrealizedPL': -3.5829, 'marginUsed': 184.6818}
+2024-08-06 09:54:00 TradeWorker : TradeDecision(): USD_JPY dir:1 gain:0.1511 sl:145.1593 tp:145.4111
+2024-08-06 09:54:00 get_trade_units() price ApiPrice() USD_JPY 145.28 145.261 0.006301 0.006301
+2024-08-06 09:54:00 0.01 10.072222222223104 0.4964147821290244 7877.8
+2024-08-06 09:54:01 placed trade_id:89347 for TradeDecision(): USD_JPY dir:1 gain:0.1511 sl:145.1593 tp:145.4111
+2024-08-06 09:55:00 TradeWorker : TradeDecision(): EUR_JPY dir:1 gain:0.1855 sl:158.5493 tp:158.8585
+2024-08-06 09:55:00 Failed to place trade TradeDecision(): EUR_JPY dir:1 gain:0.1855 sl:158.5493 tp:158.8585, already open: {'id': '89339', 'instrument': 'EUR_JPY', 'price': 158.766, 'currentUnits': 5546.0, 'unrealizedPL': -3.8289, 'marginUsed': 184.6818}
+2024-08-06 09:57:00 TradeWorker : TradeDecision(): USD_JPY dir:1 gain:0.1642 sl:145.0946 tp:145.3682
+2024-08-06 09:57:00 Failed to place trade TradeDecision(): USD_JPY dir:1 gain:0.1642 sl:145.0946 tp:145.3682, already open: {'id': '89347', 'instrument': 'USD_JPY', 'price': 145.281, 'currentUnits': 7878.0, 'unrealizedPL': -4.9415, 'marginUsed': 240.1302}
+2024-08-06 10:05:00 TradeWorker : TradeDecision(): EUR_JPY dir:1 gain:0.1124 sl:158.5281 tp:158.7154
+2024-08-06 10:05:00 get_trade_units() price ApiPrice() EUR_JPY 158.604 158.573 0.006306 0.006306
+2024-08-06 10:05:00 0.01 7.494444444441228 0.6671608598965058 10580.4
+2024-08-06 10:05:00 placed trade_id:89355 for TradeDecision(): EUR_JPY dir:1 gain:0.1124 sl:158.5281 tp:158.7154
+2024-08-06 10:05:00 TradeWorker : TradeDecision(): GBP_JPY dir:1 gain:0.1516 sl:184.8020 tp:185.0546
+2024-08-06 10:05:01 get_trade_units() price ApiPrice() GBP_JPY 184.91 184.871 0.006306 0.006306
+2024-08-06 10:05:01 0.01 10.103703703703104 0.4948680351906452 7848.2
+2024-08-06 10:05:01 placed trade_id:89359 for TradeDecision(): GBP_JPY dir:1 gain:0.1516 sl:184.8020 tp:185.0546
