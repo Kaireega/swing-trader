@@ -1,0 +1,22 @@
+# Environment
+config.env
+.env
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# Runtime artifacts
+logs/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data caches
+data/instruments.json
